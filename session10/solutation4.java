@@ -21,25 +21,25 @@ public class solutation4 {
         System.out.println("Paid " + amount);
     }
 
-    void pay(double amount, String couponCode) {
-        System.out.println("Paid " + amount + " using Coupon: " + couponCode);
+    void pay(double amount, String Code) {
+        System.out.println("Paid " + amount + " using Coupon: " + Code);
     }
 
-    void pay(double amount, double walletBalance) {
-        System.out.println("Paid " + amount + " using Wallet Balance: " + walletBalance);
+    void pay(double amount, double bal) {
+        System.out.println("Paid " + amount + " using Wallet Balance: " + bal);
     }
 
     public static void main(String[] args) {
 
         solutation4 payment = new solutation4();
 
-        payment.pay(500);
-        payment.pay(500, "SAVE50");
-        payment.pay(500, 1000);
+        payment.pay(800);
+        payment.pay(800, "SAVE50");
+        payment.pay(800, 2000);
 
         System.out.println();
 
         PaymentMethod4 method = new UpiPayment4();
-        method.pay(500);
+        method.pay(800);
     }
 }
