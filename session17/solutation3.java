@@ -10,11 +10,11 @@ public class solutation3 {
 
         HashMap<String, Integer> products = new HashMap<String, Integer>();
 
-        products.put("Mouse", 800);
-        products.put("Keyboard", 1500);
-        products.put("Headphones", 2500);
-        products.put("USB Cable", 300);
-        products.put("Smart Watch", 5000);
+        products.put("Apple", 120);
+        products.put("Mango", 1500); 
+        products.put("Banana", 60);
+        products.put("Cherry", 2500);
+        products.put("Dragon Fruit", 300);
 
         Iterator<Map.Entry<String, Integer>> it =
                 products.entrySet().iterator();
