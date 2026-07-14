@@ -25,7 +25,7 @@ public class solutation1 extends Song {
         this.lyricsAccess = lyricsAccess;
     }
 
-    void displayPremiumSong() {
+    void displayPremium() {
         displaySong();
         System.out.println("Lyrics Access : " + lyricsAccess);
     }
@@ -34,6 +34,6 @@ public class solutation1 extends Song {
 
         solutation1 song = new solutation1("Perfect", "Ed Sheeran", true);
 
-        song.displayPremiumSong();
+        song.displayPremium();
     }
 }
