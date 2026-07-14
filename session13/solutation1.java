@@ -16,8 +16,8 @@ public class solutation1 {
     public static void main(String[] args) {
 
         try {
-            withdrawAmount(5000, 2000);
-            withdrawAmount(3000, 4000);
+            withdrawAmount(9000, 3000);
+            withdrawAmount(5000, 7000);
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
