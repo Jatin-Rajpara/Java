@@ -4,7 +4,7 @@ public class solutation2 {
 
     public static void main(String[] args) {
 
-        int[][] matchScores = {
+        int[][] ms = {
                 {180, 195, 210},
                 {165, 170, 185},
                 {200, 215, 198},
@@ -14,12 +14,12 @@ public class solutation2 {
 
         System.out.println("IPL Match Scores\n");
 
-        for (int team = 0; team < matchScores.length; team++) {
+        for (int team = 0; team < ms.length; team++) {
 
             System.out.print("Team " + (team + 1) + " : ");
 
-            for (int match = 0; match < matchScores[team].length; match++) {
-                System.out.print(matchScores[team][match] + "\t");
+            for (int match = 0; match < ms[team].length; match++) {
+                System.out.print(ms[team][match] + "\t");
             }
 
             System.out.println();
