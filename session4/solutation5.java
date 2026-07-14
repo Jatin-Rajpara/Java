@@ -5,12 +5,12 @@ import java.util.ArrayList;
 public class solutation5 {
 
     private String username;
-    private String password;
+    private String pass;
     private double balance;
 
-    ArrayList<String> transactionHistory = new ArrayList<>();
+    ArrayList<String> trh = new ArrayList<>();
 
-    public solutation5(String username, String password) {
+    public solutation5(String username, String pass) {
         this.username = username;
         this.password = password;
         this.balance = 0;
@@ -18,7 +18,7 @@ public class solutation5 {
 
     public void addFunds(double amount) {
         balance += amount;
-        transactionHistory.add("Added ₹" + amount);
+       trh.add("Added ₹" + amount);
     }
 
     public void spendFunds(double amount) {
@@ -29,21 +29,21 @@ public class solutation5 {
         }
 
         balance -= amount;
-        transactionHistory.add("Spent ₹" + amount);
+        trh.add("Spent ₹" + amount);
 
         System.out.println("Updated Balance: ₹" + balance);
         System.out.println("Latest Transaction: "
-                + transactionHistory.get(transactionHistory.size() - 1));
+                + trh.get(trh.size() - 1));
     }
 
     public static void main(String[] args) {
 
-        solutation5 user = new solutation5("man123", "1234");
+        solutation5 user = new solutation5("man987", "1234");
 
-        user.addFunds(2000);
+        user.addFunds(20000);
 
-        user.spendFunds(500);
+        user.spendFunds(800);
 
-        user.spendFunds(2500);
+        user.spendFunds(8500);
     }
 }   
