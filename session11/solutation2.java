@@ -2,16 +2,16 @@ package session11;
 
 public class solutation2 {
 
-    private String productName;
+    private String pName;
     private double price;
     private double discount;
 
-    public String getProductName() {
-        return productName;
+    public String getPName() {
+        return pName;
     }
 
-    public void setProductName(String productName) {
-        this.productName = productName;
+    public void setPName(String pName) {
+        this.pName = pName;
     }
 
     public double getPrice() {
@@ -38,11 +38,11 @@ public class solutation2 {
 
         solutation2 p = new solutation2();
 
-        p.setProductName("Laptop");
-        p.setPrice(50000);
-        p.setDiscount(10);
+        p.setProductName("PC");
+        p.setPrice(70000);
+        p.setDiscount(9);
 
-        System.out.println("Product Name : " + p.getProductName());
+        System.out.println("Product Name : " + p.getPName());
         System.out.println("Price : " + p.getPrice());
         System.out.println("Discount : " + p.getDiscount() + "%");
         System.out.println("Final Price : " + p.getFinalPrice());
