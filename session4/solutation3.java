@@ -7,7 +7,7 @@ class LoginUserAccount {
     private String username;
     private String password;
 
-    public LoginUserAccount(String username, String password) {
+    public Loginac(String username, String password) {
         this.username = username;
         this.password = password;
     }
@@ -23,11 +23,11 @@ class LoginUserAccount {
 
 public class solutation3 {
 
-    static ArrayList<LoginUserAccount> users = new ArrayList<>();
+    static ArrayList<Loginac> users = new ArrayList<>();
 
     public static void login(String username, String password) {
 
-        for (LoginUserAccount user : users) {
+        for (Loginac user : users) {
 
             if (user.getUsername().equals(username)
                     && user.getPassword().equals(password)) {
@@ -42,10 +42,10 @@ public class solutation3 {
 
     public static void main(String[] args) {
 
-        users.add(new LoginUserAccount("man123", "1234"));
-        users.add(new LoginUserAccount("rahul", "1111"));
+        users.add(new LoginUserAccount("rahu", "176234"));
+        users.add(new LoginUserAccount("iqakbal", "771"));
 
-        login("man123", "1234");
-        login("man123", "9999");
+        login("rahu", "176234");
+        login("iqakbal", "771");
     }
 }
