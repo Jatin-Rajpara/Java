@@ -41,8 +41,9 @@ public class solutation3 {
                 new CryptoPayment()
         };
 
-        for (PaymentMethod payment : payments) {
-            payment.topUp(500);
+           for (int i = 0; i < payments.length; i++) {
+            PaymentMethod payment = payments[i]; 
+            payment.topUp(900);
         }
     }
 }
