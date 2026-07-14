@@ -1,7 +1,6 @@
 package session11;
 
 interface Searchable {
-
     void search(String keyword);
 }
 
@@ -20,9 +19,14 @@ public class solutation4 implements Searchable {
     public void search(String keyword) {
 
         System.out.println("Search Results:");
+        
+        String key = keyword.toLowerCase();
 
-        for (String movie : movies) {
-            if (movie.toLowerCase().contains(keyword.toLowerCase())) {
+        for (int i = 0; i < movies.length; i++) {
+            
+            String movie = movies[i];
+            
+            if (movie.toLowerCase().contains(key)) {
                 System.out.println(movie);
             }
         }
