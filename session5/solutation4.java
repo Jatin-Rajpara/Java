@@ -12,18 +12,18 @@ public class solutation4 {
                 {'B', 'A', 'A', 'B', 'A', 'A'}
         };
 
-        int available = 0;
+        int av = 0;
 
         for (int row = 0; row < seats.length; row++) {
 
             for (int col = 0; col < seats[row].length; col++) {
 
                 if (seats[row][col] == 'A') {
-                    available++;
+                    av++;
                 }
             }
         }
 
-        System.out.println("Available Seats : " + available);
+        System.out.println("Available Seats : " + av);
     }
 }
