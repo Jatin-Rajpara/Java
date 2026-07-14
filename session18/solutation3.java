@@ -30,9 +30,9 @@ public class solutation3 {
 
         MusicCheck mc = new MusicCheck();
 
-        Thread thread = new Thread(mc);
+        Thread th = new Thread(mc);
 
-        thread.start();
+        th.start();
 
     }
 }
