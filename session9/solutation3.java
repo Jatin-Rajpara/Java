@@ -22,7 +22,7 @@ class InfluencerProfile extends UserProfile {
         this.followers = followers;
     }
 
-    void displayFollowers() {
+    void display() {
         System.out.println("Followers : " + followers);
     }
 }
@@ -46,7 +46,7 @@ public class solutation3 extends UserProfile {
         solutation3 b = new solutation3("Admin", "Nike");
 
         i.displayProfile();
-        i.displayFollowers();
+        i.display();
 
         System.out.println();
 
