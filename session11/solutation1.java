@@ -4,7 +4,7 @@ public class solutation1 {
 
     private String name;
     private String owner;
-    private int totalSongs;
+    private int total;
 
     public String getName() {
         return name;
@@ -22,12 +22,12 @@ public class solutation1 {
         this.owner = owner;
     }
 
-    public int getTotalSongs() {
-        return totalSongs;
+    public int getTotal() {
+        return total;
     }
 
-    public void setTotalSongs(int totalSongs) {
-        this.totalSongs = totalSongs;
+    public void setTotal(int total) {
+        this.total = total;
     }
 
     public static void main(String[] args) {
@@ -40,6 +40,6 @@ public class solutation1 {
 
         System.out.println("Playlist Name : " + p.getName());
         System.out.println("Owner : " + p.getOwner());
-        System.out.println("Total Songs : " + p.getTotalSongs());
+        System.out.println("Total Songs : " + p.getTotal());
     }
 }
