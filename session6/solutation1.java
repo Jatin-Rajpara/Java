@@ -9,8 +9,8 @@ public class solutation1 {
 
         solutation1 p = new solutation1();
 
-        p.productName = "Wireless Mouse";
-        p.price = 799.99;
+        p.productName = "Wireless Keyboard";
+        p.price = 899.99;
 
     
         System.out.println("Product Name : " + p.productName);
