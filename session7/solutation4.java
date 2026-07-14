@@ -5,7 +5,7 @@ public class solutation4 {
     String username;
     int followers;
 
-    void increaseFollowers(int count) {
+    void increaseF(int count) {
         followers += count;
         System.out.println("Updated Followers: " + followers);
     }
@@ -20,6 +20,6 @@ public class solutation4 {
         System.out.println("Username: " + profile.username);
         System.out.println("Current Followers: " + profile.followers);
 
-        profile.increaseFollowers(250);
+        profile.increaseF(250);
     }
 }
