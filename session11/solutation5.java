@@ -69,7 +69,7 @@ public class solutation5 {
         System.out.println();
 
         PaymentService payment = new PaytmPayment();
-        payment.makePayment(500);
-        payment.refundPayment(500);
+        payment.makePayment(900);
+        payment.refundPayment(900);
     }
 }
