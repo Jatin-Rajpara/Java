@@ -14,12 +14,12 @@ public class solutation2 {
                     new FileReader("playlist.txt"));
 
             String line;
-            int lineNumber = 1;
+            int lineno = 1;
 
             while ((line = reader.readLine()) != null) {
 
-                System.out.println(lineNumber + ". " + line);
-                lineNumber++;
+                System.out.println(lineno + ". " + line);
+                lineno++;
 
             }
 
