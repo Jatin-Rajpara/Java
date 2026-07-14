@@ -17,7 +17,7 @@ public class solutation3 {
 
             fos.close();
 
-            System.out.println("Item added to cart log.");
+            System.out.println("Item added...");
 
         } catch (IOException e) {
 
@@ -28,8 +28,8 @@ public class solutation3 {
 
     public static void main(String[] args) {
 
-        addToCart("Redmi Note 12 - 12999");
-        addToCart("Boat Headphones - 1499");
+        addToCart("iPhone - 12999");
+        addToCart("Beta Headphones - 1499");
         addToCart("Samsung Charger - 899");
 
     }
