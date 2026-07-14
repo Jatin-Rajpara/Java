@@ -39,8 +39,8 @@ public class solutation1 {
         UpiPayment upi = new UpiPayment();
         CryptoPayment crypto = new CryptoPayment();
 
-        card.topUp(500);
-        upi.topUp(500);
-        crypto.topUp(500);
+        card.topUp(700);
+        upi.topUp(700);
+        crypto.topUp(700);
     }
 }
