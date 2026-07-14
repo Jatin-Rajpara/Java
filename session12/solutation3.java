@@ -4,12 +4,12 @@ public class solutation3 {
 
     public static void main(String[] args) {
 
-        StringBuilder orderID = new StringBuilder("ORD");
+        StringBuilder ID = new StringBuilder("ORD");
 
-        int randomNumber = 100000 + (int) (Math.random() * 900000);
+        int no = 100000 + (int) (Math.random() * 900000);
 
-        orderID.append(randomNumber);
+          ID.append(no);
 
-        System.out.println("Generated Order ID: " + orderID);
+        System.out.println("Generated Order ID: " + ID);
     }
 }
