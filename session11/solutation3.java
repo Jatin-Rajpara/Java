@@ -28,7 +28,7 @@ public class solutation3 {
         UPITransaction t1 = new PaytmTransaction();
         UPITransaction t2 = new PhonePeTransaction();
 
-        t1.processTransaction(500);
-        t2.processTransaction(1000);
+        t1.processTransaction(900);
+        t2.processTransaction(7000);
     }
 }
