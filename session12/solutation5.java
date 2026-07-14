@@ -14,7 +14,7 @@ public class solutation5 {
 
     public static void main(String[] args) {
 
-        String walletID = "WAL12345678";
+        String walletID = "SNL1564a5678";
 
         System.out.println("Original Wallet ID : " + walletID);
         System.out.println("Masked Wallet ID   : " + maskWalletID(walletID));
