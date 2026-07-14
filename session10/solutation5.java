@@ -27,7 +27,7 @@ public class solutation5 {
 
         CardPayment5 card = new CardPayment5();
 
-        card.topUp(500);
-        card.topUp(1500);
+        card.topUp(600);
+        card.topUp(2500);
     }
 }
