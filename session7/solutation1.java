@@ -9,7 +9,7 @@ public class solutation1 {
         System.out.println("Song added to playlist");
     }
 
-    void checkSongCount() {
+    void check() {
         System.out.println("Total Songs Added: " + songCount);
     }
 
@@ -21,6 +21,6 @@ public class solutation1 {
         p.addSong();
         p.addSong();
 
-        p.checkSongCount();
+        p.check();
     }
 }
