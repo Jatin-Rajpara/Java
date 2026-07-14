@@ -4,7 +4,7 @@ public class solutation1 {
 
     public static void main(String[] args) {
 
-        String username = "insta_rockstar123";
+        String username = "roman_headoftable";
         String masked = "";
 
         for (int i = 0; i < username.length() - 4; i++) {
