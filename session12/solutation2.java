@@ -1,6 +1,6 @@
 package session12;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class solutation2 {
 
