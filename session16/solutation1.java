@@ -31,12 +31,12 @@ public class solutation1 {
     public static void main(String[] args) {
 
         ArrayList<Song> songs = new ArrayList<Song>();
-
-        songs.add(new Song("Perfect", "Ed Sheeran", 263));
-        songs.add(new Song("Believer", "Imagine Dragons", 204));
-        songs.add(new Song("Levitating", "Dua Lipa", 203));
-        songs.add(new Song("Blinding Lights", "The Weeknd", 200));
-        songs.add(new Song("Shape of You", "Ed Sheeran", 233));
+        
+        songs.add(new Song("Tum Hi Ho", "Arijit Singh", 262));
+        songs.add(new Song("Stay", "Justin Bieber", 141));
+        songs.add(new Song("Despacito", "Luis Fonsi", 228));
+        songs.add(new Song("Dynamite", "BTS", 199));
+        songs.add(new Song("Kesariya", "Arijit Singh", 268));
 
         for (Song s : songs) {
 
