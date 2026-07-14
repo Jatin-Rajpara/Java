@@ -16,6 +16,6 @@ public class solutation2 {
         solutation2 movie = new solutation2();
 
         movie.addReview(5);
-        movie.addReview(4, "Excellent movie with great action scenes.");
+        movie.addReview(4, "Excellent movie....");
     }
 }
