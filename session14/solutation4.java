@@ -13,8 +13,8 @@ public class solutation4 {
 
         try {
 
-            int userBalance = 100;
-            int ticketPrice = 150;
+            int userBalance = 200;
+            int ticketPrice = 250;
 
             if (userBalance < ticketPrice) {
                 throw new InsufficientFundsException();
