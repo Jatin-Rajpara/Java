@@ -7,7 +7,7 @@ public class solutation3 {
     int quantity;
 
     
-    void increaseQuantity() {
+    void increaseq() {
         quantity++;
         System.out.println("Updated Quantity : " + quantity);
     }
@@ -19,14 +19,14 @@ public class solutation3 {
 
     
         item.itemName = "Bluetooth Speaker";
-        item.quantity = 1;
+        item.quantity = 3;
 
     
         System.out.println("Item Name : " + item.itemName);
         System.out.println("Initial Quantity : " + item.quantity);
 
         
-        item.increaseQuantity();
-        item.increaseQuantity();
+        item.increaseq();
+        item.increaseq();
     }
 }
