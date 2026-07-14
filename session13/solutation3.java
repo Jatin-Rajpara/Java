@@ -9,7 +9,7 @@ class InsufficientFundsException extends Exception {
 
 public class solutation3 {
 
-    static int balance = 5000;
+    static int balance = 7000;
 
     static void sendMoney(int amount) throws InsufficientFundsException {
 
@@ -27,8 +27,8 @@ public class solutation3 {
 
         try {
 
-            sendMoney(2000);
             sendMoney(4000);
+            sendMoney(9000);
 
         } catch (InsufficientFundsException e) {
 
