@@ -8,7 +8,7 @@ public class solutation4 {
     private String password;
     private double balance;
 
-    ArrayList<String> transactionHistory = new ArrayList<>();
+    ArrayList<String> transach = new ArrayList<>();
 
     public solutation4(String username, String password) {
         this.username = username;
@@ -19,17 +19,17 @@ public class solutation4 {
     public void addFunds(double amount) {
         balance += amount;
 
-        transactionHistory.add("Added ₹" + amount);
+        transach.add("Added ₹" + amount);
 
         System.out.println("Updated Balance: ₹" + balance);
 
         System.out.println("Latest Transaction: "
-                + transactionHistory.get(transactionHistory.size() - 1));
+                + transach.get(transach.size() - 1));
     }
 
     public static void main(String[] args) {
 
-        solutation4 user = new solutation4("man123", "1234");
+        solutation4 user = new solutation4("roman", "23434");
 
         user.addFunds(500);
 
