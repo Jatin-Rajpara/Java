@@ -33,14 +33,14 @@ class CryptoPayment extends PaymentMethod {
 
 public class solutation2 {
 
-    static void processWalletTopUp(PaymentMethod method, double amount) {
+    static void TopUp(PaymentMethod method, double amount) {
         method.topUp(amount);
     }
 
     public static void main(String[] args) {
 
-        processWalletTopUp(new CardPayment(), 500);
-        processWalletTopUp(new UpiPayment(), 500);
-        processWalletTopUp(new CryptoPayment(), 500);
+        TopUp(new CardPayment(), 300);
+        TopUp(new UpiPayment(), 300);
+        TopUp(new CryptoPayment(), 300);
     }
 }
