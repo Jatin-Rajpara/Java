@@ -13,11 +13,11 @@ class UserProfile {
     }
 }
 
-class InfluencerProfile extends UserProfile {
+class IProfile extends UserProfile {
 
     int followers;
 
-    InfluencerProfile(String name, int followers) {
+    IProfile(String name, int followers) {
         super(name);
         this.followers = followers;
     }
@@ -42,7 +42,7 @@ public class solutation3 extends UserProfile {
 
     public static void main(String[] args) {
 
-        InfluencerProfile i = new InfluencerProfile("Jatin", 15000);
+        IProfile i = new IProfile("Jatin", 15000);
         solutation3 b = new solutation3("Admin", "Nike");
 
         i.displayProfile();
