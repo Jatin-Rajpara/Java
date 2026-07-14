@@ -26,9 +26,9 @@ public class solutation1 {
 
     public static void main(String[] args) {
 
-        NotificationUpdater notification = new NotificationUpdater();
+        NotificationUpdater nf = new NotificationUpdater();
 
-        Thread thread = new Thread(notification);
+        Thread thread = new Thread(nf);
 
         thread.start();
 
