@@ -4,12 +4,12 @@ import java.util.ArrayList;
 
 class UserAccount {
     private String username;
-    private String password;
+    private String pass;
     private double balance;
 
-    public UserAccount(String username, String password) {
+    public UserAccount(String username, String pass) {
         this.username = username;
-        this.password = password;
+        this.pass = pass;
         this.balance = 0;
     }
 
@@ -23,11 +23,13 @@ public class solutation2 {
     static ArrayList<UserAccount> users = new ArrayList<UserAccount>();
 
     public static void register(UserAccount user) {
-
-        for (UserAccount u : users) {
+        
+       
+        for (int i = 0; i < users.size(); i++) {
+            UserAccount u = users.get(i);
             if (u.getUsername().equals(user.getUsername())) {
                 System.out.println("Username already exists.");
-                return;
+                return; 
             }
         }
 
@@ -37,9 +39,9 @@ public class solutation2 {
 
     public static void main(String[] args) {
 
-        register(new UserAccount("man123", "1234"));
-        register(new UserAccount("rahul", "1111"));
-        register(new UserAccount("man123", "9999"));
+        register(new UserAccount("ketan", "9865"));
+        register(new UserAccount("rahul", "3333"));
+        register(new UserAccount("rohan", "4399"));
 
     }
 }
