@@ -1,35 +1,28 @@
 package session14;
 
 class OutOfStockException extends Exception {
-
-    public OutOfStockException(String message) {
-        super(message);
+    public OutOfStockException(String msg) {
+        super(msg);
     }
 }
-
 public class solutation1 {
 
-    public static void checkStock(int availableStock, int requestedQuantity)
-            throws OutOfStockException {
-
-        if (requestedQuantity > availableStock) {
-            throw new OutOfStockException(
-                    "Requested quantity exceeds available stock.");
+    public static void checkStock(int stock, int qty) throws OutOfStockException {
+     
+        if (qty > stock) {
+            throw new OutOfStockException("Requested quantity exceeds available stock.");
         }
 
         System.out.println("Product added to cart successfully.");
     }
 
     public static void main(String[] args) {
-
         try {
-
+           
             checkStock(5, 8);
-
         } catch (OutOfStockException e) {
-
-            System.out.println(e.getMessage());
-
+           
+            System.out.println("Exception: " + e.getMessage());
         }
     }
 }
