@@ -8,10 +8,8 @@ class Product {
     double price;
 
     Product(String name, double price) {
-
         this.name = name;
         this.price = price;
-
     }
 }
 
@@ -19,28 +17,26 @@ public class solutation3 {
 
     static double total = 0;
 
-    static void calculateTotal(ArrayList<Product> cart) {
+    static void tot(ArrayList<Product> cart) {
 
-        for (Product p : cart) {
-
+      
+        for (int i = 0; i < cart.size(); i++) {
+            Product p = cart.get(i); 
             total += p.price;
-
         }
 
         System.out.println("Total Cart Value : " + total);
-
     }
 
     public static void main(String[] args) {
 
         ArrayList<Product> cart = new ArrayList<Product>();
 
-        cart.add(new Product("Laptop", 55000));
-        cart.add(new Product("Mouse", 800));
-        cart.add(new Product("Keyboard", 1500));
-        cart.add(new Product("Headphones", 2500));
+        cart.add(new Product("Notebook", 120));
+        cart.add(new Product("Pen Drive", 450));
+        cart.add(new Product("School Bag", 850));
+        cart.add(new Product("Geometry Box", 150));
 
-        calculateTotal(cart);
-
+        tot(cart); 
     }
 }
